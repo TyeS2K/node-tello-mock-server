@@ -1,8 +1,16 @@
 {
-  "start": "npm run node ./mock-tello-server.js",
+  "name": "mocktello-app",
+  "version": "1.0.0",
+  "description": "A mock service for emulating a Tello Drone.",
+  "main": "mock-tello-server.js",
+  "author": "Nimble Solutions, LLC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
     "ws": "^8.18.2"
+  },
+  "scripts": {
+    "start": "node mock-tello-server.js"
   }
 }
